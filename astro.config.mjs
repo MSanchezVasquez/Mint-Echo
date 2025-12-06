@@ -7,7 +7,7 @@ import icon from "astro-icon";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://tudominio.com",
+  site: "https://mint-echo.netlify.app",
   integrations: [
     preact(),
     icon(),
