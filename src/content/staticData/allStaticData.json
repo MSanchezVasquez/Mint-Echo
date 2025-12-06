@@ -1,17 +1,17 @@
 {
-  "profileImage": "/images/efeeleprofile.webp",
-  "profileAlt": "Photo of Fernando Aldair López Ponce (EFEELE) for the blog",
+  "profileImage": "/images/moschinoprofile.webp",
+  "profileAlt": "Photo of Moises Emerson Sanchez Vasquez for the blog",
   "profileLink": "/about-me",
   "profileTitle": "FrontEnd Developer",
-  "profileName": "Fernando López",
-  "github": "https://github.com/EFEELE/NeonMint",
+  "profileName": "Moises Sanchez",
+  "github": "https://github.com/MSanchezVasquez/Mint-Echo",
   "githubText": "Do you like this blog's design?",
   "portfolioImage": "/images/portfolio.webp",
-  "email": "hello@efeele.dev",
-  "linkedin": "https://www.linkedin.com/in/efeele/",
-  "instagram": "https://www.instagram.com/efeele.dev/",
-  "youtube": "https://www.youtube.com/@efeeledev",
-  "alias": "EFEELE",
+  "email": "mcodex23@gmail.com",
+  "linkedin": "https://www.linkedin.com/in/moises-sanchez-201b64375/",
+  "instagram": "https://www.instagram.com",
+  "youtube": "https://www.youtube.com/@MCodex23",
+  "alias": "Moschino",
   "contactSectionTitle": "Ready to take your idea to the next level?",
   "contactSectionSubtitle": "Let's work together.",
   "contactSectionButtonText": "Contact Me",
@@ -23,17 +23,18 @@
   "linkedinIconName": "linkedin",
   "emailIconName": "envelope",
   "hobbies": [
-    "Writing",
-    "Camping",
-    "Coffee",
+    "Desarrollo Web",
+    "Tecnología",
+    "Aprendizaje continuo",
     "Music",
     "Movies",
-    "Board Games"
+    "Board Games",
+    ""
   ],
-  "pageTitle": "NeonMint by | Fernando Lopez | EFEELE",
+  "pageTitle": "Mint Echo by | Moises Sanchez | MOSCHINO",
   "pageDescription": "Is a modern, minimalist template crafted for developers and digital creatives.",
   "OGImage": {
     "url": "/images/imagedefault.webp",
-    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Fernando López, a Frontend Developer with 8 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Angular, Node.js, CSS, Tailwind, and more."
+    "alt": "Screenshot of a web portfolio with a modern and dark design. Featuring Moises Sanchez, a Frontend Developer with 2 years of experience, highlighting his passion for development and technology. Includes contact sections, projects, and a technology stack with technologies like HTML5, JavaScript, TypeScript, Node.js, CSS, Tailwind, and more."
   }
 }
