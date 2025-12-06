@@ -110,8 +110,28 @@ export const languages: Record<string, Language> = {
     name: "Python",
     iconName: "python",
   },
+  react: {
+    name: "React",
+    iconName: "react", // Asegúrate de tener react.svg en src/icons
+  },
+  vite: {
+    name: "Vite",
+    iconName: "vite",
+  },
+  vue: {
+    name: "Vue",
+    iconName: "vue", // Asegúrate de tener vue.svg
+  },
+  pinia: {
+    name: "Pinia",
+    iconName: "pinia", // Asegúrate de tener pinia.svg
+  },
+  zustand: {
+    name: "Zustand",
+    iconName: "zustand", // Asegúrate de tener zustand.svg
+  },
 };
 
 export const getLanguage = (lang: string): Language => {
   return languages[lang] || languages.html;
-}; 
+};

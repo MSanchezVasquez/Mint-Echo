@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: "Aplicación de Notas con React y Zustand"
 pubDate: 2025-10-21
 description: "Aplicación de notas moderna, responsiva y eficiente creada con React."
-languages: ["react", "javascript", "zustand", "vite"]
+languages: ["react", "javascript", "zustand"]
 image:
   url: "/images/projects/notes-app.webp"
   alt: "Captura de pantalla de la App de Tareas"

@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: "Aplicación de lista de tareas con Vue 3, Vite y Pinia"
 pubDate: 2025-10-21
 description: "Aplicación de notas moderna, responsiva y eficiente creada con Vue 3."
-languages: ["vue 3", "pinia", "vite"]
+languages: ["vue", "pinia",]
 image:
   url: "/images/projects/pinia-tasks.webp"
   alt: "Captura de pantalla de la App de Pinia Tasks"
