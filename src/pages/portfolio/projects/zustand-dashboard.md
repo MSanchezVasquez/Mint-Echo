@@ -3,7 +3,7 @@ layout: /src/layouts/ProjectLayout.astro
 title: "Zustand Dashboard"
 pubDate: 2025-12-11
 description: "Aplicación de demostración profesional construida con React, TypeScript y Vite, diseñada para mostrar patrones avanzados de manejo de estado utilizando Zustand."
-languages: ["react", "typescript", "zustand"]
+languages: ["react", "ts", "zustand"]
 image:
   url: "/images/projects/zustand-dashboard.webp"
   alt: "Captura de pantalla de la App de zustand-dashboard"
