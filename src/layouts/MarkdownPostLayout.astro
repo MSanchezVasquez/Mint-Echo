@@ -10,7 +10,7 @@ import Share from "../components/ui/Share.astro";
 const { frontmatter } = Astro.props;
 const currentUrl = `${Astro.site}${Astro.url.pathname}`;
 const tweetText = encodeURIComponent(
-  `"${frontmatter.title}" - by ${frontmatter.author} | EFEELE`
+  `"${frontmatter.title}" - by ${frontmatter.author} | MOSCHINO`
 );
 import Heading from "../components/ui/Heading.astro";
 ---
@@ -76,13 +76,17 @@ import Heading from "../components/ui/Heading.astro";
       <header class="flex flex-col gap-4" id="start">
         <div class="flex gap-2 flex-wrap">
           {
-            frontmatter.languages.map((language: string) => (
-              <Capsule lang={language} />
-            ))
+            frontmatter.languages &&
+              frontmatter.languages.map((language: string) => (
+                <Capsule lang={language} />
+              ))
           }
         </div>
         <div class="gap-3 flex flex-wrap justify-start items-center">
-          {frontmatter.tags.map((tag: string) => <Tag tag={tag}>{tag}</Tag>)}
+          {
+            frontmatter.tags &&
+              frontmatter.tags.map((tag: string) => <Tag tag={tag}>{tag}</Tag>)
+          }
         </div>
         <DatePub date={frontmatter.pubDate} />
 
@@ -133,7 +137,7 @@ import Heading from "../components/ui/Heading.astro";
   >
     <div class="px-8">
       <NavigationArticles />
-      <hr class="text-mint-300/50" />
+      <hr class="text-riptide-300/50" />
     </div>
     <div class="px-8 max-sm:px-4">
       <ListPosts currentPostUrl={Astro.url.pathname} />
