@@ -21,39 +21,44 @@ const tweetText = encodeURIComponent(`"${pageTitle}"`);
 ---
 
 <Layout pageTitle={pageTitle} description={description} ogimage={ogimage}>
-  <div class="relative mx-auto max-w-7xl px-8 max-sm:px-4 gap-6">
+  <main class="relative mx-auto max-w-7xl px-8 max-sm:px-4 gap-6">
     <div
       class="grid my-8 grid-cols-3 grid-rows-1 max-lg:grid-cols-1 max-lg:grid-rows-[1fr_auto] gap-12 max-md:gap-4"
     >
-      <div class="lg:col-span-2">
+      <section class="lg:col-span-2" aria-label="Lista de artículos publicados">
         <ListPosts all={true} />
-      </div>
+      </section>
 
-      <div class="lg:col-start-3">
+      <aside
+        class="lg:col-start-3"
+        aria-label="Barra lateral con categorías y tecnologías"
+      >
         {/* Sidebar: Categories */}
-        <div
+        <nav
           class="bg-white dark:bg-transparent w-full mt-0 rounded-2xl dark:border-0 border border-neutral-100 top-14 px-6 pt-8 pb-12"
+          aria-label="Navegación por categorías"
         >
           <div class="flex flex-col gap-4 pl-0">
             <Heading textGradient="Categories" />
             <Tags variant="compact" />
           </div>
-        </div>
+        </nav>
 
         {/* Sidebar: Technologies */}
-        <div
+        <nav
           class="bg-white dark:bg-transparent w-full mt-8 rounded-2xl dark:border-0 border border-neutral-100 top-14 px-6 pt-8 pb-12"
+          aria-label="Navegación por tecnologías"
         >
           <div class="flex flex-col gap-4 pl-0">
             <Heading textGradient="Technologies" level={2} />
             <Languages />
           </div>
-        </div>
+        </nav>
 
         <div class="my-8 flex justify-end">
           <Share currentUrl={currentUrl} tweetText={tweetText} />
         </div>
-      </div>
+      </aside>
     </div>
-  </div>
+  </main>
 </Layout>
