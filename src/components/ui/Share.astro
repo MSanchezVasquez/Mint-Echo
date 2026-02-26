@@ -22,20 +22,30 @@ const shareLinks = [
 ];
 ---
 
-<div class="flex items-center gap-5 text-lg" role="group" aria-label="Share on social media">
-  <span class="text-base font-bold text-blacktext dark:text-white">Share </span>
-  {
-    shareLinks.map((link) => (
-      <a
-        href={link.href}
-        class="bg-blacktext rounded-full p-2"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label={`Share on ${link.name}`}
-        title={`Share on ${link.name}`}
-      >
-        <Icon name={link.icon} />
-      </a>
-    ))
-  }
-</div>
+<section
+  class="flex items-center gap-5 text-lg"
+  role="group"
+  aria-label="Share on social media"
+>
+  <span
+    id="share-heading"
+    class="text-base font-bold text-blacktext dark:text-white"
+    >Share
+  </span>
+  <ul class="flex gap-5 m-0 p-0 list-none" aria-labelledby="share-heading">
+    {
+      shareLinks.map((link) => (
+        <a
+          href={link.href}
+          class="bg-blacktext rounded-full p-2"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Share on ${link.name}`}
+          title={`Share on ${link.name}`}
+        >
+          <Icon name={link.icon} aria-hidden="true" focusable="false" />
+        </a>
+      ))
+    }
+  </ul>
+</section>
