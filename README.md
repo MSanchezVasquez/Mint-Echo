@@ -1,4 +1,4 @@
-# Moises Sanchez | Portfolio (MOSCHINO)
+# Moises Sanchez | Portfolio (MCodex)
 
 ![Moises Sanchez Portfolio](./public/images/moschino-banner.jpg)
 ## 🎯 Overview
